@@ -1,0 +1,101 @@
+Uni,Student_ID,First_Name,Middle_Name,Last_Name,Email,School,Level,Affiliation,Points,email_suffix
+bn0509,C0041466980,Brett,,Nelson,bn0509@columbia.edu,EN  ,U04,ENCOMS,3,columbia.edu
+ew0054,C0039448696,Eaton,,Waller,ew0054@columbia.edu,EN  ,U04,ENCOMS,3,columbia.edu
+ew0389,C0040336505,Echo,,Winters,ew0389@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+ah0394,C0039598992,Amela,Christopher,Henson,ah0394@columbia.edu,EN  ,U04,ENCOMS,3,columbia.edu
+rs0475,C0039316774,Rhoda,,Strong,rs0475@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+ab0414,C0042079766,August,Daniela,Barlow,ab0414@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+ph0525,C0040566748,Patience,,Hancock,ph0525@columbia.edu,EN  ,U03,ENOPRE,3,columbia.edu
+jb0532,C0040641679,Jeanette,,Baker,jb0532@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+bf0294,C0038946677,Brady,Cameron,Fuentes,bf0294@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+rt0314,C0040832501,Ramona,,Terrell,rt0314@columbia.edu,EP  ,G01,ETCOMS,3,columbia.edu
+cf0544,C0040786770,Colt,,Frazier,cf0544@columbia.edu,CC  ,U03,CCCOMS,3,columbia.edu
+fr0461,C0040732449,Fritz,Luo,Ross,fr0461@columbia.edu,EN  ,U03,ENOPRE,3,columbia.edu
+zc0768,C0039864089,Zachary,,Curtis,zc0768@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+gl0180,C0040027840,Galvin,Pratap,Landry,gl0180@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+uc0718,C0041198110,Ursula,,Cobb,uc0718@columbia.edu,EP  ,G02,EMCOMS,3,columbia.edu
+dp0463,C0041581514,Dale,,Parks,dp0463@columbia.edu,EN  ,U04,ENOPRE,3,columbia.edu
+eh0490,C0038973178,Elijah,,Hobbs,eh0490@columbia.edu,CC  ,U03,CCCOMS,3,columbia.edu
+os0204,C0040824262,Oren,,Simon,os0204@columbia.edu,EP  ,G01,EMCMEN,3,columbia.edu
+bb0417,C0039592927,Bruno,,Bond,bb0417@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+bc0185,C0041514396,Brianna,,Cervantes,bc0185@columbia.edu,EP  ,G01,EMCMEN,3,columbia.edu
+uw0312,C0040787418,Ulric,,Waller,uw0312@columbia.edu,EP  ,G03,EMCOMS,3,columbia.edu
+gl0669,C0041828577,Gisela,,Leblanc,gl0669@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+bm0043,C0041617228,Benjamin,,Mcneil,bm0043@columbia.edu,EN  ,U02,ENEMGT,3,columbia.edu
+hp0338,C0040419519,Hashim,Richard,Pennington,hp0338@columbia.edu,EN  ,U04,ENCOMS,3,columbia.edu
+kb0271,C0041915305,Kendall,Frances,Battle,kb0271@columbia.edu,CC  ,U03,CCSTAB,3,columbia.edu
+er0221,C0040835685,Emmanuel,Nikhil,Rosales,er0221@columbia.edu,EN  ,U04,ENCOMS,3,columbia.edu
+lp0822,C0040927372,Lionel,,Paul,lp0822@columbia.edu,EN  ,U03,ENCOMS,3,columbia.edu
+ag0689,C0040003411,Adrienne,,Griffin,ag0689@columbia.edu,CC  ,U04,CCCOMS,3,columbia.edu
+mc0514,C0041086799,Maris,,Charles,mc0514@columbia.edu,BC  ,U03,BCCR  ,3,columbia.edu
+rh0802,C0039577734,Reed,,Howard,rh0802@columbia.edu,EN  ,U04,ENCOMS,3,columbia.edu
+cw0093,C0039968707,Cedric,,Wells,cw0093@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+bn0209,C0039366626,Briar,,Nielsen,bn0209@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+db0825,C0041731221,Dawn,,Burch,db0825@columbia.edu,EN  ,U04,ENCOMS,3,columbia.edu
+lw0963,C0040408538,Lila,,Wynn,lw0963@columbia.edu,EN  ,U02,ENOPRE,3,columbia.edu
+sm0677,C0039559461,Slade,,Mullins,sm0677@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+ea0615,C0040029236,Evan,Sebastian,Aguilar,ea0615@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+zh0888,C0040458328,Zeph,,Heath,zh0888@columbia.edu,BC  ,U04,BCCR  ,3,columbia.edu
+zw0394,C0041865712,Zena,,Walter,zw0394@barnard.edu,BC  ,U03,BCCR  ,3,barnard.edu
+cj0418,C0041620621,Clark,Munyiva,Jenkins,cj0418@barnard.edu,BC  ,U04,BCCR  ,3,barnard.edu
+jf0081,C0039797287,Jamalia,,Figueroa,jf0081@columbia.edu,EN  ,U02,ENOPRE,3,columbia.edu
+rc0899,C0040334881,Rae,,Cardenas,rc0899@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+nm0201,C0040857050,Nathaniel,,Mccray,nm0201@columbia.edu,CC  ,U03,CCCOMS,3,columbia.edu
+sr0612,C0039465783,Sandra,,Rose,sr0612@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+sb0080,C0041779964,Sarah,Jiyoung,Beasley,sb0080@columbia.edu,EN  ,U03,ENINEN,3,columbia.edu
+mg0359,C0040121370,Marny,,Gill,mg0359@columbia.edu,EN  ,U03,ENCOMS,3,columbia.edu
+mw0865,C0039372497,Mariko,Hannah,Wolf,mw0865@barnard.edu,BC  ,U02,BCCR  ,3,barnard.edu
+rh0866,C0039110251,Risa,,Hines,rh0866@columbia.edu,EN  ,U03,ENEMGT,3,columbia.edu
+jf0309,C0041641795,Joel,Ly-Lan,Frost,jf0309@columbia.edu,EN  ,U03,ENCOMS,3,columbia.edu
+ge0009,C0041167849,Gage,,Estrada,ge0009@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+pw0277,C0041399470,Price,,Weber,pw0277@columbia.edu,CC  ,U03,CCHISP,3,columbia.edu
+kg0787,C0040602073,Kelly,,Guthrie,kg0787@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+mb0119,C0039891510,MacKensie,,Benton,mb0119@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+sm0553,C0039335046,Scarlet,,Mcclain,sm0553@columbia.edu,CC  ,U03,CCCOMS,3,columbia.edu
+bh0668,C0039278441,Bert,,Hutchinson,bh0668@columbia.edu,EN  ,U03,ENOPRE,3,columbia.edu
+kb0833,C0039246488,Kamal,,Bird,kb0833@columbia.edu,GS  ,U04,GSCSCA,3,columbia.edu
+vf0567,C0039150882,Vaughan,,Fields,vf0567@columbia.edu,EN  ,U03,ENCOMS,3,columbia.edu
+bh0712,C0040869994,Buffy,,Hughes,bh0712@barnard.edu,BC  ,U03,BCCR  ,3,barnard.edu
+kl0327,C0041841626,Kuame,Bing,Lara,kl0327@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+mk0966,C0038985454,Madaline,Wenyan,Kramer,mk0966@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+lr0053,C0039485806,Lance,,Robertson,lr0053@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+lm0814,C0039319210,Lacota,,Maxwell,lm0814@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+gs0009,C0041047474,Gareth,Yuanjia,Snyder,gs0009@columbia.edu,EN  ,U02,ENCOMS,3,columbia.edu
+pd0278,C0040108846,Peter,Amy,Delgado,pd0278@barnard.edu,BC  ,U02,BCCR  ,3,barnard.edu
+dm0352,C0041599575,Deanna,Thomas,Mcneil,dm0352@columbia.edu,EN  ,U03,ENCOMS,3,columbia.edu
+hc0762,C0040379179,Hanae,,Chandler,hc0762@columbia.edu,EP  ,G01,EMCOMS,3,columbia.edu
+ur0895,C0041459654,Ursula,,Ramirez,ur0895@columbia.edu,EP  ,G01,ETCOMS,3,columbia.edu
+ad0200,C0041192052,Autumn,Ruth,Downs,ad0200@barnard.edu,BC  ,U02,BCCR  ,3,barnard.edu
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

@@ -1,0 +1,2609 @@
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+T =  Table name = Test
+Column name: ['foo', 'bar']
+Primary key columns: ['foo']
+Next row id: 1
+No. of rows: 0
+No. of rows: 0
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['foo']
+Table name: Test
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+t =  Table name = offices.
+Column name: ['officeCode', 'city', 'phone', 'addressLine1', 'addressLine2', 'state', 'country', 'postalCode', 'territory']
+Primary key columns: ['officeCode']
+Next row id: 11
+No. of rows: 10
+First 5 rows:
+  officeCode           city            phone              addressLine1 addressLine2 state country postalCode territory
+2          1  San Francisco  +1 650 219 4782         100 Market Street    Suite 300    CA     USA      94080        NA
+3         11      Cambridge  +1 617 555 1212            Kendall Square                 MA     USA      02102        NA
+4          2         Boston  +1 215 837 0825          1550 Court Place    Suite 102    MA     USA      02107        NA
+5          3            NYC  +1 212 555 3000      523 East 53rd Street      apt. 5A    NY     USA      10022        NA
+6          4          Paris  +33 14 723 4404  43 Rue Jouffroy D'abbans                     France      75017      EMEA
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['officeCode']
+Table name: offices.
+No. of unique index values: 10Entries:
+[1: {
+  "2": {
+    "officeCode": "1",
+    "city": "San Francisco",
+    "phone": "+1 650 219 4782",
+    "addressLine1": "100 Market Street",
+    "addressLine2": "Suite 300",
+    "state": "CA",
+    "country": "USA",
+    "postalCode": "94080",
+    "territory": "NA"
+  }
+}]
+[11: {
+  "3": {
+    "officeCode": "11",
+    "city": "Cambridge",
+    "phone": "+1 617 555 1212",
+    "addressLine1": "Kendall Square",
+    "addressLine2": "",
+    "state": "MA",
+    "country": "USA",
+    "postalCode": "02102",
+    "territory": "NA"
+  }
+}]
+[2: {
+  "4": {
+    "officeCode": "2",
+    "city": "Boston",
+    "phone": "+1 215 837 0825",
+    "addressLine1": "1550 Court Place",
+    "addressLine2": "Suite 102",
+    "state": "MA",
+    "country": "USA",
+    "postalCode": "02107",
+    "territory": "NA"
+  }
+}]
+[3: {
+  "5": {
+    "officeCode": "3",
+    "city": "NYC",
+    "phone": "+1 212 555 3000",
+    "addressLine1": "523 East 53rd Street",
+    "addressLine2": "apt. 5A",
+    "state": "NY",
+    "country": "USA",
+    "postalCode": "10022",
+    "territory": "NA"
+  }
+}]
+[4: {
+  "6": {
+    "officeCode": "4",
+    "city": "Paris",
+    "phone": "+33 14 723 4404",
+    "addressLine1": "43 Rue Jouffroy D'abbans",
+    "addressLine2": "",
+    "state": "",
+    "country": "France",
+    "postalCode": "75017",
+    "territory": "EMEA"
+  }
+}]
+
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+KV =  Donald_Ferguson
+I =  Index name: Bob
+Kind: UNIQUE
+Index columns: ['First_Name', 'Last_Name']
+Table name: None
+No. of unique index values: 1Entries:
+[Donald_Ferguson: {
+  "2": {
+    "Last_Name": "Ferguson",
+    "First_Name": "Donald",
+    "Uni": "sure"
+  }
+}]
+
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+t =  Table name = ssol_dummy.
+Column name: ['Uni', 'Student_ID', 'First_Name', 'Middle_Name', 'Last_Name', 'Email', 'School', 'Level', 'Affiliation', 'Points', 'email_suffix']
+Primary key columns: ['Uni']
+Next row id: 3
+No. of rows: 2
+First 2 rows:
+  Last_Name First_Name Uni Email
+2  Ferguson     Donald  No   boo
+3  Ferguson     Donald  No   boo
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['Uni']
+Table name: ssol_dummy.
+No. of unique index values: 2Entries:
+[sure: {
+  "2": {
+    "Last_Name": "Ferguson",
+    "First_Name": "Donald",
+    "Uni": "No",
+    "Email": "boo"
+  }
+}]
+[No: {
+  "3": {
+    "Last_Name": "Ferguson",
+    "First_Name": "Donald",
+    "Uni": "No",
+    "Email": "boo"
+  }
+}]
+
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+T = Table name = People
+Column name: ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns: ['playerID']
+Next row id: 19371
+No. of rows: 19370
+First 5 rows:
+    playerID birthYear birthMonth birthDay birthCountry birthState   birthCity deathYear deathMonth deathDay deathCountry deathState deathCity nameFirst nameLast       nameGiven weight height bats throws       debut   finalGame   retroID    bbrefID
+2  aardsda01      1981         12       27          USA         CO      Denver                                                                     David  Aardsma     David Allan    215     75    R      R  2004-04-06  2015-08-23  aardd001  aardsda01
+3  aaronha01      1934          2        5          USA         AL      Mobile                                                                      Hank    Aaron     Henry Louis    180     72    R      R  1954-04-13  1976-10-03  aaroh101  aaronha01
+4  aaronto01      1939          8        5          USA         AL      Mobile      1984          8       16          USA         GA   Atlanta    Tommie    Aaron      Tommie Lee    190     75    R      R  1962-04-10  1971-09-26  aarot101  aaronto01
+5   aasedo01      1954          9        8          USA         CA      Orange                                                                       Don     Aase  Donald William    190     75    R      R  1977-07-26  1990-10-03  aased001   aasedo01
+6   abadan01      1972          8       25          USA         FL  Palm Beach                                                                      Andy     Abad   Fausto Andres    184     73    L      L  2001-09-10  2006-04-13  abada001   abadan01
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['playerID']
+Table name: People
+No. of unique index values: 19370Entries:
+[aardsda01: {
+  "2": {
+    "playerID": "aardsda01",
+    "birthYear": "1981",
+    "birthMonth": "12",
+    "birthDay": "27",
+    "birthCountry": "USA",
+    "birthState": "CO",
+    "birthCity": "Denver",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "David",
+    "nameLast": "Aardsma",
+    "nameGiven": "David Allan",
+    "weight": "215",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "2004-04-06",
+    "finalGame": "2015-08-23",
+    "retroID": "aardd001",
+    "bbrefID": "aardsda01"
+  }
+}]
+[aaronha01: {
+  "3": {
+    "playerID": "aaronha01",
+    "birthYear": "1934",
+    "birthMonth": "2",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Hank",
+    "nameLast": "Aaron",
+    "nameGiven": "Henry Louis",
+    "weight": "180",
+    "height": "72",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1954-04-13",
+    "finalGame": "1976-10-03",
+    "retroID": "aaroh101",
+    "bbrefID": "aaronha01"
+  }
+}]
+[aaronto01: {
+  "4": {
+    "playerID": "aaronto01",
+    "birthYear": "1939",
+    "birthMonth": "8",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "1984",
+    "deathMonth": "8",
+    "deathDay": "16",
+    "deathCountry": "USA",
+    "deathState": "GA",
+    "deathCity": "Atlanta",
+    "nameFirst": "Tommie",
+    "nameLast": "Aaron",
+    "nameGiven": "Tommie Lee",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1962-04-10",
+    "finalGame": "1971-09-26",
+    "retroID": "aarot101",
+    "bbrefID": "aaronto01"
+  }
+}]
+[aasedo01: {
+  "5": {
+    "playerID": "aasedo01",
+    "birthYear": "1954",
+    "birthMonth": "9",
+    "birthDay": "8",
+    "birthCountry": "USA",
+    "birthState": "CA",
+    "birthCity": "Orange",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Don",
+    "nameLast": "Aase",
+    "nameGiven": "Donald William",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1977-07-26",
+    "finalGame": "1990-10-03",
+    "retroID": "aased001",
+    "bbrefID": "aasedo01"
+  }
+}]
+[abadan01: {
+  "6": {
+    "playerID": "abadan01",
+    "birthYear": "1972",
+    "birthMonth": "8",
+    "birthDay": "25",
+    "birthCountry": "USA",
+    "birthState": "FL",
+    "birthCity": "Palm Beach",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Andy",
+    "nameLast": "Abad",
+    "nameGiven": "Fausto Andres",
+    "weight": "184",
+    "height": "73",
+    "bats": "L",
+    "throws": "L",
+    "debut": "2001-09-10",
+    "finalGame": "2006-04-13",
+    "retroID": "abada001",
+    "bbrefID": "abadan01"
+  }
+}]
+
+Row =  Table name = Derived:People
+Column name: None
+Primary key columns: None
+Next row id: 1
+No. of rows: 0
+No. of rows: 0
+Elapsed time =  8.702278137207031e-05
+Elapsed time =  0.000125885009765625
+Elapsed time =  0.00015592575073242188
+Elapsed time =  0.0001819133758544922
+Elapsed time =  0.0002079010009765625
+Elapsed time =  0.0002338886260986328
+Elapsed time =  0.0002589225769042969
+Elapsed time =  0.00028395652770996094
+Elapsed time =  0.000308990478515625
+Elapsed time =  0.00033402442932128906
+Elapsed time =  0.00035881996154785156
+Elapsed time =  0.0003838539123535156
+Elapsed time =  0.00040912628173828125
+Elapsed time =  0.00043392181396484375
+Elapsed time =  0.00045800209045410156
+Elapsed time =  0.0004830360412597656
+Elapsed time =  0.0005078315734863281
+Elapsed time =  0.0005328655242919922
+Elapsed time =  0.00055694580078125
+Elapsed time =  0.0005817413330078125
+Elapsed time =  0.0006058216094970703
+Elapsed time =  0.0006310939788818359
+Elapsed time =  0.0006546974182128906
+Elapsed time =  0.0006799697875976562
+Elapsed time =  0.0007040500640869141
+Elapsed time =  0.0007290840148925781
+Elapsed time =  0.0007529258728027344
+Elapsed time =  0.0007779598236083984
+Elapsed time =  0.0008020401000976562
+Elapsed time =  0.0008258819580078125
+Elapsed time =  0.0008509159088134766
+Elapsed time =  0.0008749961853027344
+Elapsed time =  0.0008997917175292969
+Elapsed time =  0.0009238719940185547
+Elapsed time =  0.0009489059448242188
+Elapsed time =  0.0009729862213134766
+Elapsed time =  0.000997781753540039
+Elapsed time =  0.0010218620300292969
+Elapsed time =  0.0010459423065185547
+Elapsed time =  0.0010707378387451172
+Elapsed time =  0.0010957717895507812
+Elapsed time =  0.001119852066040039
+Elapsed time =  0.0011451244354248047
+Elapsed time =  0.001168966293334961
+Elapsed time =  0.001194000244140625
+Elapsed time =  0.0012180805206298828
+Elapsed time =  0.001241922378540039
+Elapsed time =  0.0012669563293457031
+Elapsed time =  0.001291036605834961
+Elapsed time =  0.0013151168823242188
+Elapsed time =  0.0013399124145507812
+Elapsed time =  0.001363992691040039
+Elapsed time =  0.0013880729675292969
+Elapsed time =  0.0014128684997558594
+Elapsed time =  0.0014369487762451172
+Elapsed time =  0.0014619827270507812
+Elapsed time =  0.001486063003540039
+Elapsed time =  0.0015108585357666016
+Elapsed time =  0.0015358924865722656
+Elapsed time =  0.0015599727630615234
+Elapsed time =  0.001584768295288086
+Elapsed time =  0.0016088485717773438
+Elapsed time =  0.0016338825225830078
+Elapsed time =  0.001657724380493164
+Elapsed time =  0.0016829967498779297
+Elapsed time =  0.0017070770263671875
+Elapsed time =  0.00173187255859375
+Elapsed time =  0.0017559528350830078
+Elapsed time =  0.0017800331115722656
+Elapsed time =  0.0018050670623779297
+Elapsed time =  0.0018298625946044922
+Elapsed time =  0.00185394287109375
+Elapsed time =  0.001878976821899414
+Elapsed time =  0.0019028186798095703
+Elapsed time =  0.0019268989562988281
+Elapsed time =  0.0019519329071044922
+Elapsed time =  0.00197601318359375
+Elapsed time =  0.0020008087158203125
+Elapsed time =  0.0020248889923095703
+Elapsed time =  0.002048969268798828
+Elapsed time =  0.0020737648010253906
+Elapsed time =  0.0020978450775146484
+Elapsed time =  0.0021228790283203125
+Elapsed time =  0.002148151397705078
+Elapsed time =  0.002171754837036133
+Elapsed time =  0.0021958351135253906
+Elapsed time =  0.0022199153900146484
+Elapsed time =  0.002244710922241211
+Elapsed time =  0.0022687911987304688
+Elapsed time =  0.0022940635681152344
+Elapsed time =  0.002318143844604492
+Elapsed time =  0.0023429393768310547
+Elapsed time =  0.0023670196533203125
+Elapsed time =  0.0023910999298095703
+Elapsed time =  0.002414703369140625
+Elapsed time =  0.0024399757385253906
+Elapsed time =  0.0024640560150146484
+Elapsed time =  0.0024890899658203125
+Elapsed time =  0.0025129318237304688
+Elapsed time =  0.0025370121002197266
+Elapsed time =  0.0025620460510253906
+Elapsed time =  0.002585887908935547
+Elapsed time =  0.0026099681854248047
+Elapsed time =  0.0026350021362304688
+Elapsed time =  0.0026590824127197266
+Elapsed time =  0.002683877944946289
+Elapsed time =  0.002707958221435547
+Elapsed time =  0.002732992172241211
+Elapsed time =  0.002756834030151367
+Elapsed time =  0.0027818679809570312
+Elapsed time =  0.002805948257446289
+Elapsed time =  0.002830028533935547
+Elapsed time =  0.0028548240661621094
+Elapsed time =  0.002878904342651367
+Elapsed time =  0.0029039382934570312
+Elapsed time =  0.0029277801513671875
+Elapsed time =  0.0029518604278564453
+Elapsed time =  0.002975940704345703
+Elapsed time =  0.003000974655151367
+Elapsed time =  0.0030248165130615234
+Elapsed time =  0.0030498504638671875
+Elapsed time =  0.0030739307403564453
+Elapsed time =  0.0030977725982666016
+Elapsed time =  0.0031228065490722656
+Elapsed time =  0.0031468868255615234
+Elapsed time =  0.003172159194946289
+Elapsed time =  0.0031957626342773438
+Elapsed time =  0.0032210350036621094
+Elapsed time =  0.003245115280151367
+Elapsed time =  0.003268718719482422
+Elapsed time =  0.0032939910888671875
+Elapsed time =  0.0033180713653564453
+Elapsed time =  0.003342866897583008
+Elapsed time =  0.0033669471740722656
+Elapsed time =  0.0033910274505615234
+Elapsed time =  0.0034160614013671875
+Elapsed time =  0.0034399032592773438
+Elapsed time =  0.003464937210083008
+Elapsed time =  0.0034890174865722656
+Elapsed time =  0.0035130977630615234
+Elapsed time =  0.003537893295288086
+Elapsed time =  0.0035619735717773438
+Elapsed time =  0.003587007522583008
+Elapsed time =  0.003610849380493164
+Elapsed time =  0.003634929656982422
+Elapsed time =  0.003659963607788086
+Elapsed time =  0.0036840438842773438
+Elapsed time =  0.0037088394165039062
+Elapsed time =  0.003732919692993164
+Elapsed time =  0.003756999969482422
+Elapsed time =  0.003780841827392578
+Elapsed time =  0.003805875778198242
+Elapsed time =  0.0038299560546875
+Elapsed time =  0.003854036331176758
+Elapsed time =  0.003877878189086914
+Elapsed time =  0.003902912139892578
+Elapsed time =  0.003926992416381836
+Elapsed time =  0.003950834274291992
+Elapsed time =  0.00397491455078125
+Elapsed time =  0.003998994827270508
+Elapsed time =  0.004023075103759766
+Elapsed time =  0.004047870635986328
+Elapsed time =  0.004071950912475586
+Elapsed time =  0.004096031188964844
+Elapsed time =  0.0041201114654541016
+Elapsed time =  0.004143714904785156
+Elapsed time =  0.004168987274169922
+Elapsed time =  0.00419306755065918
+Elapsed time =  0.0042171478271484375
+Elapsed time =  0.004240751266479492
+Elapsed time =  0.00426483154296875
+Elapsed time =  0.004290103912353516
+Elapsed time =  0.00431370735168457
+Elapsed time =  0.004337787628173828
+Elapsed time =  0.004361867904663086
+Elapsed time =  0.004385948181152344
+Elapsed time =  0.004410743713378906
+Elapsed time =  0.004434823989868164
+Elapsed time =  0.004458904266357422
+Elapsed time =  0.004483699798583984
+Elapsed time =  0.004506826400756836
+Elapsed time =  0.004530906677246094
+Elapsed time =  0.004555940628051758
+Elapsed time =  0.004580020904541016
+Elapsed time =  0.004603862762451172
+Elapsed time =  0.00462794303894043
+Elapsed time =  0.004652976989746094
+Elapsed time =  0.00467681884765625
+Elapsed time =  0.004700899124145508
+Elapsed time =  0.004724979400634766
+Elapsed time =  0.0047490596771240234
+Elapsed time =  0.00477290153503418
+Elapsed time =  0.004797935485839844
+Elapsed time =  0.0048220157623291016
+Elapsed time =  0.004846811294555664
+Elapsed time =  0.004870891571044922
+Elapsed time =  0.00489497184753418
+Elapsed time =  0.004920005798339844
+Elapsed time =  0.00494384765625
+Elapsed time =  0.004967927932739258
+Elapsed time =  0.004992008209228516
+Elapsed time =  0.0050160884857177734
+Elapsed time =  0.005040884017944336
+Elapsed time =  0.005064964294433594
+Elapsed time =  0.0050890445709228516
+Elapsed time =  0.005113124847412109
+Elapsed time =  0.005137920379638672
+Elapsed time =  0.00516200065612793
+Elapsed time =  0.0051860809326171875
+Elapsed time =  0.005209922790527344
+Elapsed time =  0.005234956741333008
+Elapsed time =  0.005259037017822266
+Elapsed time =  0.0052831172943115234
+Elapsed time =  0.005306720733642578
+Elapsed time =  0.005331993103027344
+Elapsed time =  0.0053560733795166016
+Elapsed time =  0.0055501461029052734
+Elapsed time =  0.005574941635131836
+Elapsed time =  0.005599021911621094
+Elapsed time =  0.005624055862426758
+Elapsed time =  0.005646705627441406
+Elapsed time =  0.005671977996826172
+Elapsed time =  0.00569605827331543
+Elapsed time =  0.005719900131225586
+Elapsed time =  0.0057468414306640625
+Elapsed time =  0.006011962890625
+Elapsed time =  0.006065845489501953
+Elapsed time =  0.0061130523681640625
+Elapsed time =  0.0061588287353515625
+Elapsed time =  0.006203889846801758
+Elapsed time =  0.006249904632568359
+Elapsed time =  0.0062868595123291016
+Elapsed time =  0.006314992904663086
+Elapsed time =  0.0063419342041015625
+Elapsed time =  0.006368875503540039
+Elapsed time =  0.006395816802978516
+Elapsed time =  0.006422996520996094
+Elapsed time =  0.0064487457275390625
+Elapsed time =  0.006475925445556641
+Elapsed time =  0.006501913070678711
+Elapsed time =  0.006527900695800781
+Elapsed time =  0.006562948226928711
+Elapsed time =  0.006599903106689453
+Elapsed time =  0.0066280364990234375
+Elapsed time =  0.006654977798461914
+Elapsed time =  0.006680965423583984
+Elapsed time =  0.006707906723022461
+Elapsed time =  0.006734132766723633
+Elapsed time =  0.0067598819732666016
+Elapsed time =  0.0067861080169677734
+Elapsed time =  0.0068128108978271484
+Elapsed time =  0.00683903694152832
+Elapsed time =  0.006865978240966797
+Elapsed time =  0.006891965866088867
+Elapsed time =  0.0069179534912109375
+Elapsed time =  0.006943941116333008
+Elapsed time =  0.006970882415771484
+Elapsed time =  0.006996870040893555
+Elapsed time =  0.007022857666015625
+Elapsed time =  0.007050037384033203
+Elapsed time =  0.0070760250091552734
+Elapsed time =  0.00710296630859375
+Elapsed time =  0.007131814956665039
+Elapsed time =  0.0072100162506103516
+Elapsed time =  0.007289886474609375
+Elapsed time =  0.007322788238525391
+Elapsed time =  0.007352113723754883
+Elapsed time =  0.007380962371826172
+Elapsed time =  0.007420778274536133
+Elapsed time =  0.0074498653411865234
+Elapsed time =  0.007493734359741211
+Elapsed time =  0.007539987564086914
+Elapsed time =  0.007585048675537109
+Elapsed time =  0.007630109786987305
+Elapsed time =  0.0076749324798583984
+Elapsed time =  0.007703065872192383
+Elapsed time =  0.007729768753051758
+Elapsed time =  0.007756948471069336
+Elapsed time =  0.007782936096191406
+Elapsed time =  0.0078089237213134766
+Elapsed time =  0.007835865020751953
+Elapsed time =  0.007861852645874023
+Elapsed time =  0.0078887939453125
+Elapsed time =  0.007922887802124023
+Elapsed time =  0.007946968078613281
+Elapsed time =  0.007971048355102539
+Elapsed time =  0.007994890213012695
+Elapsed time =  0.00801992416381836
+Elapsed time =  0.008044004440307617
+Elapsed time =  0.00806879997253418
+Elapsed time =  0.008092880249023438
+Elapsed time =  0.008116960525512695
+Elapsed time =  0.00814199447631836
+Elapsed time =  0.008165836334228516
+Elapsed time =  0.008189916610717773
+Elapsed time =  0.008214950561523438
+Elapsed time =  0.008238792419433594
+Elapsed time =  0.008263826370239258
+Elapsed time =  0.008287906646728516
+Elapsed time =  0.008311986923217773
+Elapsed time =  0.008371829986572266
+Elapsed time =  0.00843191146850586
+Elapsed time =  0.008461952209472656
+Elapsed time =  0.008488893508911133
+Elapsed time =  0.008513927459716797
+Elapsed time =  0.008539915084838867
+Elapsed time =  0.008563995361328125
+Elapsed time =  0.008589029312133789
+Elapsed time =  0.008613824844360352
+Elapsed time =  0.00863790512084961
+Elapsed time =  0.008661985397338867
+Elapsed time =  0.00868678092956543
+Elapsed time =  0.008710861206054688
+Elapsed time =  0.008734941482543945
+Elapsed time =  0.00875997543334961
+Elapsed time =  0.008783817291259766
+Elapsed time =  0.008853912353515625
+Elapsed time =  0.008905887603759766
+Elapsed time =  0.008967876434326172
+Elapsed time =  0.009021997451782227
+Elapsed time =  0.009055852890014648
+Elapsed time =  0.009083747863769531
+Elapsed time =  0.009112119674682617
+Elapsed time =  0.009146928787231445
+Elapsed time =  0.00917196273803711
+Elapsed time =  0.009196996688842773
+Elapsed time =  0.009221792221069336
+Elapsed time =  0.009246826171875
+Elapsed time =  0.009272098541259766
+Elapsed time =  0.009296894073486328
+Elapsed time =  0.009320974349975586
+Elapsed time =  0.00934600830078125
+Elapsed time =  0.009370803833007812
+Elapsed time =  0.00939488410949707
+Elapsed time =  0.009419918060302734
+Elapsed time =  0.009443998336791992
+Elapsed time =  0.009468793869018555
+Elapsed time =  0.00949406623840332
+Elapsed time =  0.009518146514892578
+Elapsed time =  0.009541749954223633
+Elapsed time =  0.009567022323608398
+Elapsed time =  0.009592056274414062
+Elapsed time =  0.009615898132324219
+Elapsed time =  0.009640932083129883
+Elapsed time =  0.00966501235961914
+Elapsed time =  0.009689092636108398
+Elapsed time =  0.009713888168334961
+Elapsed time =  0.009738922119140625
+Elapsed time =  0.009763002395629883
+Elapsed time =  0.009787797927856445
+Elapsed time =  0.009811878204345703
+Elapsed time =  0.009836912155151367
+Elapsed time =  0.009861946105957031
+Elapsed time =  0.009885787963867188
+Elapsed time =  0.009911060333251953
+Elapsed time =  0.009935855865478516
+Elapsed time =  0.009959936141967773
+Elapsed time =  0.009984970092773438
+Elapsed time =  0.010009050369262695
+Elapsed time =  0.010033845901489258
+Elapsed time =  0.010057926177978516
+Elapsed time =  0.01008296012878418
+Elapsed time =  0.010106801986694336
+Elapsed time =  0.0101318359375
+Elapsed time =  0.010155916213989258
+Elapsed time =  0.010179758071899414
+Elapsed time =  0.010220050811767578
+Elapsed time =  0.010315895080566406
+Elapsed time =  0.010345935821533203
+Elapsed time =  0.010381937026977539
+Elapsed time =  0.010406970977783203
+Elapsed time =  0.010432004928588867
+Elapsed time =  0.010456085205078125
+Elapsed time =  0.010480880737304688
+Elapsed time =  0.010504961013793945
+Elapsed time =  0.01052999496459961
+Elapsed time =  0.010553836822509766
+Elapsed time =  0.01057887077331543
+Elapsed time =  0.010602951049804688
+Elapsed time =  0.010627031326293945
+Elapsed time =  0.010651826858520508
+Elapsed time =  0.010676860809326172
+Elapsed time =  0.01070094108581543
+Elapsed time =  0.010725736618041992
+Elapsed time =  0.01074981689453125
+Elapsed time =  0.010775089263916016
+Elapsed time =  0.01079869270324707
+Elapsed time =  0.010823965072631836
+Elapsed time =  0.0108489990234375
+Elapsed time =  0.010873079299926758
+Elapsed time =  0.01089787483215332
+Elapsed time =  0.010921955108642578
+Elapsed time =  0.010946989059448242
+Elapsed time =  0.010970830917358398
+Elapsed time =  0.010995864868164062
+Elapsed time =  0.01101994514465332
+Elapsed time =  0.011044740676879883
+Elapsed time =  0.011070013046264648
+Elapsed time =  0.011093854904174805
+Elapsed time =  0.011118888854980469
+Elapsed time =  0.011142969131469727
+Elapsed time =  0.01116800308227539
+Elapsed time =  0.011192083358764648
+Elapsed time =  0.011216878890991211
+Elapsed time =  0.011241912841796875
+Elapsed time =  0.011265993118286133
+Elapsed time =  0.011290788650512695
+Elapsed time =  0.011314868927001953
+Elapsed time =  0.011339902877807617
+Elapsed time =  0.011363983154296875
+Elapsed time =  0.011398792266845703
+Elapsed time =  0.011425971984863281
+Elapsed time =  0.011452913284301758
+Elapsed time =  0.011478900909423828
+Elapsed time =  0.011505842208862305
+Elapsed time =  0.011533021926879883
+Elapsed time =  0.011567831039428711
+Elapsed time =  0.011591911315917969
+Elapsed time =  0.011616945266723633
+Elapsed time =  0.01164102554321289
+Elapsed time =  0.011665821075439453
+Elapsed time =  0.011690855026245117
+Elapsed time =  0.011714935302734375
+Elapsed time =  0.011738777160644531
+Elapsed time =  0.011763811111450195
+Elapsed time =  0.011787891387939453
+Elapsed time =  0.011812925338745117
+Elapsed time =  0.011837959289550781
+Elapsed time =  0.011862039566040039
+Elapsed time =  0.011886119842529297
+Elapsed time =  0.01191091537475586
+Elapsed time =  0.011935949325561523
+Elapsed time =  0.011960029602050781
+Elapsed time =  0.011983871459960938
+Elapsed time =  0.012008905410766602
+Elapsed time =  0.012033939361572266
+Elapsed time =  0.012110710144042969
+Elapsed time =  0.012158870697021484
+Elapsed time =  0.012185811996459961
+Elapsed time =  0.012212038040161133
+Elapsed time =  0.012237071990966797
+Elapsed time =  0.012260913848876953
+Elapsed time =  0.012285947799682617
+Elapsed time =  0.012310028076171875
+Elapsed time =  0.012334108352661133
+Elapsed time =  0.012357950210571289
+Elapsed time =  0.012381792068481445
+Elapsed time =  0.012407064437866211
+Elapsed time =  0.012430906295776367
+Elapsed time =  0.012454748153686523
+Elapsed time =  0.012478828430175781
+Elapsed time =  0.012502908706665039
+Elapsed time =  0.012526750564575195
+Elapsed time =  0.012550830841064453
+Elapsed time =  0.012574911117553711
+Elapsed time =  0.012598991394042969
+Elapsed time =  0.012622833251953125
+Elapsed time =  0.012646913528442383
+Elapsed time =  0.01267099380493164
+Elapsed time =  0.012695074081420898
+Elapsed time =  0.012718915939331055
+Elapsed time =  0.012742757797241211
+Elapsed time =  0.012766838073730469
+Elapsed time =  0.012790918350219727
+Elapsed time =  0.012827873229980469
+Elapsed time =  0.012866020202636719
+Elapsed time =  0.012892961502075195
+Elapsed time =  0.012918949127197266
+Elapsed time =  0.012945890426635742
+Elapsed time =  0.012981891632080078
+Elapsed time =  0.013005971908569336
+Elapsed time =  0.013030767440795898
+Elapsed time =  0.013054847717285156
+Elapsed time =  0.013078927993774414
+Elapsed time =  0.01310276985168457
+Elapsed time =  0.013126850128173828
+Elapsed time =  0.013151884078979492
+Elapsed time =  0.01317596435546875
+Elapsed time =  0.013200759887695312
+Elapsed time =  0.01322484016418457
+Elapsed time =  0.013248920440673828
+Elapsed time =  0.013273000717163086
+Elapsed time =  0.013296842575073242
+Elapsed time =  0.0133209228515625
+Elapsed time =  0.013345956802368164
+Elapsed time =  0.01336979866027832
+Elapsed time =  0.013394832611083984
+Elapsed time =  0.013418912887573242
+Elapsed time =  0.0134429931640625
+Elapsed time =  0.013466835021972656
+Elapsed time =  0.01349186897277832
+Elapsed time =  0.013515949249267578
+Elapsed time =  0.013540029525756836
+Elapsed time =  0.013564825057983398
+Elapsed time =  0.013588905334472656
+Elapsed time =  0.013612985610961914
+Elapsed time =  0.01363682746887207
+Elapsed time =  0.013661861419677734
+Elapsed time =  0.013685941696166992
+Elapsed time =  0.01371002197265625
+Elapsed time =  0.013733863830566406
+Elapsed time =  0.013757944107055664
+Elapsed time =  0.013782978057861328
+Elapsed time =  0.013806819915771484
+Elapsed time =  0.013830900192260742
+Elapsed time =  0.01385498046875
+Elapsed time =  0.013880014419555664
+Elapsed time =  0.01390385627746582
+Elapsed time =  0.013928890228271484
+Elapsed time =  0.013952970504760742
+Elapsed time =  0.01397705078125
+Elapsed time =  0.014000892639160156
+Elapsed time =  0.01402592658996582
+Elapsed time =  0.014050006866455078
+Elapsed time =  0.014073848724365234
+Elapsed time =  0.014097929000854492
+Elapsed time =  0.014122962951660156
+Elapsed time =  0.014147043228149414
+Elapsed time =  0.014171838760375977
+Elapsed time =  0.014195919036865234
+Elapsed time =  0.01423192024230957
+Elapsed time =  0.01425790786743164
+Elapsed time =  0.014283895492553711
+Elapsed time =  0.014310836791992188
+Elapsed time =  0.01433706283569336
+Elapsed time =  0.014372110366821289
+Elapsed time =  0.014396905899047852
+Elapsed time =  0.01442098617553711
+Elapsed time =  0.014446020126342773
+Elapsed time =  0.01446986198425293
+Elapsed time =  0.014493942260742188
+Elapsed time =  0.014518976211547852
+Elapsed time =  0.014542818069458008
+Elapsed time =  0.014566898345947266
+Elapsed time =  0.01459193229675293
+Elapsed time =  0.014616012573242188
+Elapsed time =  0.014639854431152344
+Elapsed time =  0.014664888381958008
+Elapsed time =  0.014688968658447266
+Elapsed time =  0.014713048934936523
+Elapsed time =  0.014737844467163086
+Elapsed time =  0.014761924743652344
+Elapsed time =  0.014786005020141602
+Elapsed time =  0.014810800552368164
+Elapsed time =  0.014834880828857422
+Elapsed time =  0.014859914779663086
+Elapsed time =  0.014883995056152344
+Elapsed time =  0.0149078369140625
+Elapsed time =  0.014932870864868164
+Elapsed time =  0.014956951141357422
+Elapsed time =  0.014980792999267578
+Elapsed time =  0.015004873275756836
+Elapsed time =  0.0150299072265625
+Elapsed time =  0.015053987503051758
+Elapsed time =  0.015077829360961914
+Elapsed time =  0.015102863311767578
+Elapsed time =  0.015126943588256836
+Elapsed time =  0.015150785446166992
+Elapsed time =  0.015175819396972656
+Elapsed time =  0.015199899673461914
+Elapsed time =  0.015223979949951172
+Elapsed time =  0.015248775482177734
+Elapsed time =  0.015272855758666992
+Elapsed time =  0.01529693603515625
+Elapsed time =  0.015321731567382812
+Elapsed time =  0.01534581184387207
+Elapsed time =  0.015370845794677734
+Elapsed time =  0.015394926071166992
+Elapsed time =  0.015418767929077148
+Elapsed time =  0.015443801879882812
+Elapsed time =  0.01546788215637207
+Elapsed time =  0.015492916107177734
+Elapsed time =  0.015516996383666992
+Elapsed time =  0.015540838241577148
+Elapsed time =  0.015566110610961914
+Elapsed time =  0.01558995246887207
+Elapsed time =  0.015625953674316406
+Elapsed time =  0.015651941299438477
+Elapsed time =  0.015677928924560547
+Elapsed time =  0.015705108642578125
+Elapsed time =  0.0157318115234375
+Elapsed time =  0.01576709747314453
+Elapsed time =  0.015790700912475586
+Elapsed time =  0.015814781188964844
+Elapsed time =  0.01584005355834961
+Elapsed time =  0.015864133834838867
+Elapsed time =  0.01588892936706543
+Elapsed time =  0.015913009643554688
+Elapsed time =  0.01593804359436035
+Elapsed time =  0.015961885452270508
+Elapsed time =  0.015986919403076172
+Elapsed time =  0.01601099967956543
+Elapsed time =  0.016036033630371094
+Elapsed time =  0.01605987548828125
+Elapsed time =  0.016083955764770508
+Elapsed time =  0.016108989715576172
+Elapsed time =  0.016132831573486328
+Elapsed time =  0.016157865524291992
+Elapsed time =  0.01618194580078125
+Elapsed time =  0.016206026077270508
+Elapsed time =  0.01623082160949707
+Elapsed time =  0.016254901885986328
+Elapsed time =  0.016279935836791992
+Elapsed time =  0.01630377769470215
+Elapsed time =  0.016327857971191406
+Elapsed time =  0.016351938247680664
+Elapsed time =  0.016376972198486328
+Elapsed time =  0.016400814056396484
+Elapsed time =  0.01642584800720215
+Elapsed time =  0.016449928283691406
+Elapsed time =  0.016473770141601562
+Elapsed time =  0.016498804092407227
+Elapsed time =  0.016522884368896484
+Elapsed time =  0.016546964645385742
+Elapsed time =  0.016571760177612305
+Elapsed time =  0.016595840454101562
+Elapsed time =  0.01661992073059082
+Elapsed time =  0.016644716262817383
+Elapsed time =  0.01666879653930664
+Elapsed time =  0.0166928768157959
+Elapsed time =  0.016716957092285156
+Elapsed time =  0.01674175262451172
+Elapsed time =  0.016765832901000977
+Elapsed time =  0.016789913177490234
+Elapsed time =  0.016813993453979492
+Elapsed time =  0.016838788986206055
+Elapsed time =  0.016862869262695312
+Elapsed time =  0.01688694953918457
+Elapsed time =  0.016911745071411133
+Elapsed time =  0.01693582534790039
+Elapsed time =  0.01695990562438965
+Elapsed time =  0.016984939575195312
+Elapsed time =  0.01702094078063965
+Elapsed time =  0.017048120498657227
+Elapsed time =  0.017073869705200195
+Elapsed time =  0.017100095748901367
+Elapsed time =  0.017134904861450195
+Elapsed time =  0.017161846160888672
+Elapsed time =  0.017195940017700195
+Elapsed time =  0.01721978187561035
+Elapsed time =  0.017244815826416016
+Elapsed time =  0.01726984977722168
+Elapsed time =  0.017293930053710938
+Elapsed time =  0.0173189640045166
+Elapsed time =  0.01734304428100586
+Elapsed time =  0.017366886138916016
+Elapsed time =  0.01739192008972168
+Elapsed time =  0.017416000366210938
+Elapsed time =  0.0174410343170166
+Elapsed time =  0.01746511459350586
+Elapsed time =  0.017489910125732422
+Elapsed time =  0.01751399040222168
+Elapsed time =  0.017539024353027344
+Elapsed time =  0.0175628662109375
+Elapsed time =  0.017586946487426758
+Elapsed time =  0.017611980438232422
+Elapsed time =  0.01763606071472168
+Elapsed time =  0.017660856246948242
+Elapsed time =  0.0176849365234375
+Elapsed time =  0.017709016799926758
+Elapsed time =  0.01773381233215332
+Elapsed time =  0.017758846282958984
+Elapsed time =  0.017782926559448242
+Elapsed time =  0.0178067684173584
+Elapsed time =  0.017831802368164062
+Elapsed time =  0.01785588264465332
+Elapsed time =  0.017881155014038086
+Elapsed time =  0.01790475845336914
+Elapsed time =  0.0179288387298584
+Elapsed time =  0.017954111099243164
+Elapsed time =  0.01797771453857422
+Elapsed time =  0.018002986907958984
+Elapsed time =  0.018027067184448242
+Elapsed time =  0.0180509090423584
+Elapsed time =  0.018074750900268555
+Elapsed time =  0.01810002326965332
+Elapsed time =  0.018125057220458984
+Elapsed time =  0.01814889907836914
+Elapsed time =  0.018173933029174805
+Elapsed time =  0.018198013305664062
+Elapsed time =  0.018222808837890625
+Elapsed time =  0.01824784278869629
+Elapsed time =  0.018271923065185547
+Elapsed time =  0.018296003341674805
+Elapsed time =  0.018320798873901367
+Elapsed time =  0.018344879150390625
+Elapsed time =  0.01836991310119629
+Elapsed time =  0.018393754959106445
+Elapsed time =  0.018463850021362305
+Elapsed time =  0.018491744995117188
+Elapsed time =  0.018518924713134766
+Elapsed time =  0.018545866012573242
+Elapsed time =  0.018581867218017578
+Elapsed time =  0.018606901168823242
+Elapsed time =  0.018631935119628906
+Elapsed time =  0.018656015396118164
+Elapsed time =  0.018681049346923828
+Elapsed time =  0.01870584487915039
+Elapsed time =  0.01872992515563965
+Elapsed time =  0.018754959106445312
+Elapsed time =  0.018779754638671875
+Elapsed time =  0.018803834915161133
+Elapsed time =  0.0188291072845459
+Elapsed time =  0.018852710723876953
+Elapsed time =  0.01887798309326172
+Elapsed time =  0.018902063369750977
+Elapsed time =  0.01892685890197754
+Elapsed time =  0.018950939178466797
+Elapsed time =  0.01897597312927246
+Elapsed time =  0.01900005340576172
+Elapsed time =  0.01902484893798828
+Elapsed time =  0.01904892921447754
+Elapsed time =  0.019073963165283203
+Elapsed time =  0.01909780502319336
+Elapsed time =  0.019122838973999023
+Elapsed time =  0.019147872924804688
+Elapsed time =  0.019171953201293945
+Elapsed time =  0.01919698715209961
+Elapsed time =  0.019220829010009766
+Elapsed time =  0.019244909286499023
+Elapsed time =  0.019269943237304688
+Elapsed time =  0.01929497718811035
+Elapsed time =  0.019320011138916016
+Elapsed time =  0.019343852996826172
+Elapsed time =  0.019368886947631836
+Elapsed time =  0.0193939208984375
+Elapsed time =  0.019417762756347656
+Elapsed time =  0.01944279670715332
+Elapsed time =  0.019466876983642578
+Elapsed time =  0.019492149353027344
+Elapsed time =  0.0195157527923584
+Elapsed time =  0.019541025161743164
+Elapsed time =  0.019565105438232422
+Elapsed time =  0.019588708877563477
+Elapsed time =  0.019613981246948242
+Elapsed time =  0.0196380615234375
+Elapsed time =  0.019662857055664062
+Elapsed time =  0.01968693733215332
+Elapsed time =  0.019711971282958984
+Elapsed time =  0.019736051559448242
+Elapsed time =  0.019760847091674805
+Elapsed time =  0.019784927368164062
+Elapsed time =  0.0198209285736084
+Elapsed time =  0.019875049591064453
+Elapsed time =  0.019902944564819336
+Elapsed time =  0.019929885864257812
+Elapsed time =  0.01995682716369629
+Elapsed time =  0.019983768463134766
+Elapsed time =  0.02001786231994629
+Elapsed time =  0.020041942596435547
+Elapsed time =  0.02006697654724121
+Elapsed time =  0.020091772079467773
+Elapsed time =  0.02011704444885254
+Elapsed time =  0.020142078399658203
+Elapsed time =  0.02016592025756836
+Elapsed time =  0.020190954208374023
+Elapsed time =  0.020215988159179688
+Elapsed time =  0.02024078369140625
+Elapsed time =  0.020265817642211914
+Elapsed time =  0.02029109001159668
+Elapsed time =  0.020315885543823242
+Elapsed time =  0.020340919494628906
+Elapsed time =  0.020364999771118164
+Elapsed time =  0.020389795303344727
+Elapsed time =  0.02041482925415039
+Elapsed time =  0.02043890953063965
+Elapsed time =  0.02046370506286621
+Elapsed time =  0.020488977432250977
+Elapsed time =  0.02051401138305664
+Elapsed time =  0.020537853240966797
+Elapsed time =  0.02056288719177246
+Elapsed time =  0.020587921142578125
+Elapsed time =  0.020612716674804688
+Elapsed time =  0.020637989044189453
+Elapsed time =  0.020663022994995117
+Elapsed time =  0.02068781852722168
+Elapsed time =  0.020712852478027344
+Elapsed time =  0.020737886428833008
+Elapsed time =  0.020762920379638672
+Elapsed time =  0.02078700065612793
+Elapsed time =  0.020812034606933594
+Elapsed time =  0.020836830139160156
+Elapsed time =  0.020860910415649414
+Elapsed time =  0.020885944366455078
+Elapsed time =  0.02091073989868164
+Elapsed time =  0.020935773849487305
+Elapsed time =  0.020959854125976562
+Elapsed time =  0.020985126495361328
+Elapsed time =  0.02100992202758789
+Elapsed time =  0.02103400230407715
+Elapsed time =  0.021059036254882812
+Elapsed time =  0.021083831787109375
+Elapsed time =  0.02110886573791504
+Elapsed time =  0.021134138107299805
+Elapsed time =  0.021158933639526367
+Elapsed time =  0.02118396759033203
+Elapsed time =  0.02120804786682129
+Elapsed time =  0.021243810653686523
+Elapsed time =  0.0212709903717041
+Elapsed time =  0.02132892608642578
+Elapsed time =  0.021357059478759766
+Elapsed time =  0.021393775939941406
+Elapsed time =  0.021419048309326172
+Elapsed time =  0.021443843841552734
+Elapsed time =  0.0214688777923584
+Elapsed time =  0.021493911743164062
+Elapsed time =  0.021518707275390625
+Elapsed time =  0.02154397964477539
+Elapsed time =  0.02156805992126465
+Elapsed time =  0.021593093872070312
+Elapsed time =  0.02161693572998047
+Elapsed time =  0.021641969680786133
+Elapsed time =  0.021667003631591797
+Elapsed time =  0.02169179916381836
+Elapsed time =  0.021715879440307617
+Elapsed time =  0.02174091339111328
+Elapsed time =  0.021765947341918945
+Elapsed time =  0.02179098129272461
+Elapsed time =  0.021816015243530273
+Elapsed time =  0.021840810775756836
+Elapsed time =  0.021864891052246094
+Elapsed time =  0.021889925003051758
+Elapsed time =  0.02191472053527832
+Elapsed time =  0.021939992904663086
+Elapsed time =  0.02196502685546875
+Elapsed time =  0.021989822387695312
+Elapsed time =  0.022014856338500977
+Elapsed time =  0.022040128707885742
+Elapsed time =  0.022064924240112305
+Elapsed time =  0.02208995819091797
+Elapsed time =  0.022114992141723633
+Elapsed time =  0.022139787673950195
+Elapsed time =  0.02216506004333496
+Elapsed time =  0.022188901901245117
+Elapsed time =  0.02221393585205078
+Elapsed time =  0.022238969802856445
+Elapsed time =  0.02226400375366211
+Elapsed time =  0.022288799285888672
+Elapsed time =  0.022313833236694336
+Elapsed time =  0.022337913513183594
+Elapsed time =  0.022362947463989258
+Elapsed time =  0.022387981414794922
+Elapsed time =  0.02241206169128418
+Elapsed time =  0.022470951080322266
+Elapsed time =  0.022502899169921875
+Elapsed time =  0.02253103256225586
+Elapsed time =  0.022557973861694336
+Elapsed time =  0.022593975067138672
+Elapsed time =  0.022619962692260742
+Elapsed time =  0.022644996643066406
+Elapsed time =  0.02267003059387207
+Elapsed time =  0.022694826126098633
+Elapsed time =  0.022719860076904297
+Elapsed time =  0.022745132446289062
+Elapsed time =  0.022768735885620117
+Elapsed time =  0.022794008255004883
+Elapsed time =  0.022819042205810547
+Elapsed time =  0.02284383773803711
+Elapsed time =  0.022868871688842773
+Elapsed time =  0.02289414405822754
+Elapsed time =  0.0229189395904541
+Elapsed time =  0.022943973541259766
+Elapsed time =  0.02296900749206543
+Elapsed time =  0.022993803024291992
+Elapsed time =  0.023019075393676758
+Elapsed time =  0.02304387092590332
+Elapsed time =  0.023068904876708984
+Elapsed time =  0.02309393882751465
+Elapsed time =  0.023118019104003906
+Elapsed time =  0.02314281463623047
+Elapsed time =  0.023167848587036133
+Elapsed time =  0.0231931209564209
+Elapsed time =  0.023216962814331055
+Elapsed time =  0.02324199676513672
+Elapsed time =  0.023267030715942383
+Elapsed time =  0.02329087257385254
+Elapsed time =  0.023315906524658203
+Elapsed time =  0.023340940475463867
+Elapsed time =  0.02336573600769043
+Elapsed time =  0.023391008377075195
+Elapsed time =  0.02341604232788086
+Elapsed time =  0.023440837860107422
+Elapsed time =  0.023465871810913086
+Elapsed time =  0.02349090576171875
+Elapsed time =  0.023515939712524414
+Elapsed time =  0.023540973663330078
+Elapsed time =  0.023566007614135742
+Elapsed time =  0.02359795570373535
+Elapsed time =  0.023634910583496094
+Elapsed time =  0.023677825927734375
+Elapsed time =  0.023726701736450195
+Elapsed time =  0.023833036422729492
+Elapsed time =  0.023886919021606445
+Elapsed time =  0.023982763290405273
+Elapsed time =  0.024013042449951172
+Elapsed time =  0.024040937423706055
+Elapsed time =  0.02406787872314453
+Elapsed time =  0.024096012115478516
+Elapsed time =  0.024121761322021484
+Elapsed time =  0.024148941040039062
+Elapsed time =  0.02417469024658203
+Elapsed time =  0.02420186996459961
+Elapsed time =  0.024228811264038086
+Elapsed time =  0.024255037307739258
+Elapsed time =  0.024281740188598633
+Elapsed time =  0.02430891990661621
+Elapsed time =  0.024335861206054688
+Elapsed time =  0.02440810203552246
+Elapsed time =  0.024439096450805664
+Elapsed time =  0.02446579933166504
+Elapsed time =  0.024492979049682617
+Elapsed time =  0.024519920349121094
+Elapsed time =  0.024547100067138672
+Elapsed time =  0.02457284927368164
+Elapsed time =  0.02460002899169922
+Elapsed time =  0.024625778198242188
+Elapsed time =  0.024652957916259766
+Elapsed time =  0.024679899215698242
+Elapsed time =  0.024705886840820312
+Elapsed time =  0.024731874465942383
+Elapsed time =  0.02475905418395996
+Elapsed time =  0.02478480339050293
+Elapsed time =  0.0248110294342041
+Elapsed time =  0.024837732315063477
+Elapsed time =  0.02486395835876465
+Elapsed time =  0.024890899658203125
+Elapsed time =  0.024916887283325195
+Elapsed time =  0.024943828582763672
+Elapsed time =  0.024970054626464844
+Elapsed time =  0.024996042251586914
+Elapsed time =  0.02502298355102539
+Elapsed time =  0.025049924850463867
+Elapsed time =  0.025075912475585938
+Elapsed time =  0.025102853775024414
+Elapsed time =  0.025128841400146484
+Elapsed time =  0.02530193328857422
+Elapsed time =  0.02538275718688965
+Elapsed time =  0.025416851043701172
+Elapsed time =  0.025445938110351562
+Elapsed time =  0.025475025177001953
+Elapsed time =  0.02550196647644043
+Elapsed time =  0.025536060333251953
+Elapsed time =  0.025561094284057617
+Elapsed time =  0.02558588981628418
+Elapsed time =  0.025610923767089844
+Elapsed time =  0.025635957717895508
+Elapsed time =  0.025660991668701172
+Elapsed time =  0.025686025619506836
+Elapsed time =  0.025710105895996094
+Elapsed time =  0.025734901428222656
+Elapsed time =  0.02575993537902832
+Elapsed time =  0.025784015655517578
+Elapsed time =  0.02580881118774414
+Elapsed time =  0.0258328914642334
+Elapsed time =  0.025857925415039062
+Elapsed time =  0.025882720947265625
+Elapsed time =  0.02590799331665039
+Elapsed time =  0.02593207359313965
+Elapsed time =  0.02595686912536621
+Elapsed time =  0.02598094940185547
+Elapsed time =  0.026005983352661133
+Elapsed time =  0.026030778884887695
+Elapsed time =  0.026054859161376953
+Elapsed time =  0.026079893112182617
+Elapsed time =  0.02610492706298828
+Elapsed time =  0.026128768920898438
+Elapsed time =  0.026154041290283203
+Elapsed time =  0.02617788314819336
+Elapsed time =  0.026202917098999023
+Elapsed time =  0.02622699737548828
+Elapsed time =  0.026252031326293945
+Elapsed time =  0.026276826858520508
+Elapsed time =  0.026301860809326172
+Elapsed time =  0.02632594108581543
+Elapsed time =  0.026350021362304688
+Elapsed time =  0.02637481689453125
+Elapsed time =  0.026398897171020508
+Elapsed time =  0.026423931121826172
+Elapsed time =  0.026448965072631836
+Elapsed time =  0.0264739990234375
+Elapsed time =  0.026498079299926758
+Elapsed time =  0.02652287483215332
+Elapsed time =  0.026547908782958984
+Elapsed time =  0.02657294273376465
+Elapsed time =  0.026596784591674805
+Elapsed time =  0.026633024215698242
+Elapsed time =  0.02672886848449707
+Elapsed time =  0.02677297592163086
+Elapsed time =  0.026811838150024414
+Elapsed time =  0.026838064193725586
+Elapsed time =  0.026863813400268555
+Elapsed time =  0.02688884735107422
+Elapsed time =  0.026913881301879883
+Elapsed time =  0.026938915252685547
+Elapsed time =  0.02696394920349121
+Elapsed time =  0.026988983154296875
+Elapsed time =  0.02701282501220703
+Elapsed time =  0.027037858963012695
+Elapsed time =  0.02706289291381836
+Elapsed time =  0.027087926864624023
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+T =  Table name = Batting
+Column name: ['playerID', 'yearID', 'stint', 'teamID', 'lgID', 'G', 'AB', 'R', 'H', '2B', '3B', 'HR', 'RBI', 'SB', 'CS', 'BB', 'SO', 'IBB', 'HBP', 'SH', 'SF', 'GIDP']
+Primary key columns: ['playerID', 'stint', 'teamID', 'yearID']
+Next row id: 104325
+No. of rows: 104324
+First 5 rows:
+    playerID yearID stint teamID lgID   G   AB   R   H  2B 3B HR RBI SB CS BB SO IBB HBP SH SF GIDP
+2  abercda01   1871     1    TRO   NA   1    4   0   0   0  0  0   0  0  0  0  0                  0
+3   addybo01   1871     1    RC1   NA  25  118  30  32   6  0  0  13  8  1  4  0                  0
+4  allisar01   1871     1    CL1   NA  29  137  28  40   4  5  0  19  3  1  2  5                  1
+5  allisdo01   1871     1    WS3   NA  27  133  28  44  10  2  2  27  1  1  0  2                  0
+6  ansonca01   1871     1    RC1   NA  25  120  29  39  11  3  0  16  6  2  2  1                  0
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['playerID', 'stint', 'teamID', 'yearID']
+Table name: Batting
+No. of unique index values: 104324Entries:
+[abercda01_1_TRO_1871: {
+  "2": {
+    "playerID": "abercda01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "TRO",
+    "lgID": "NA",
+    "G": "1",
+    "AB": "4",
+    "R": "0",
+    "H": "0",
+    "2B": "0",
+    "3B": "0",
+    "HR": "0",
+    "RBI": "0",
+    "SB": "0",
+    "CS": "0",
+    "BB": "0",
+    "SO": "0",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "0"
+  }
+}]
+[addybo01_1_RC1_1871: {
+  "3": {
+    "playerID": "addybo01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "RC1",
+    "lgID": "NA",
+    "G": "25",
+    "AB": "118",
+    "R": "30",
+    "H": "32",
+    "2B": "6",
+    "3B": "0",
+    "HR": "0",
+    "RBI": "13",
+    "SB": "8",
+    "CS": "1",
+    "BB": "4",
+    "SO": "0",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "0"
+  }
+}]
+[allisar01_1_CL1_1871: {
+  "4": {
+    "playerID": "allisar01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "CL1",
+    "lgID": "NA",
+    "G": "29",
+    "AB": "137",
+    "R": "28",
+    "H": "40",
+    "2B": "4",
+    "3B": "5",
+    "HR": "0",
+    "RBI": "19",
+    "SB": "3",
+    "CS": "1",
+    "BB": "2",
+    "SO": "5",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "1"
+  }
+}]
+[allisdo01_1_WS3_1871: {
+  "5": {
+    "playerID": "allisdo01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "WS3",
+    "lgID": "NA",
+    "G": "27",
+    "AB": "133",
+    "R": "28",
+    "H": "44",
+    "2B": "10",
+    "3B": "2",
+    "HR": "2",
+    "RBI": "27",
+    "SB": "1",
+    "CS": "1",
+    "BB": "0",
+    "SO": "2",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "0"
+  }
+}]
+[ansonca01_1_RC1_1871: {
+  "6": {
+    "playerID": "ansonca01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "RC1",
+    "lgID": "NA",
+    "G": "25",
+    "AB": "120",
+    "R": "29",
+    "H": "39",
+    "2B": "11",
+    "3B": "3",
+    "HR": "0",
+    "RBI": "16",
+    "SB": "6",
+    "CS": "2",
+    "BB": "2",
+    "SO": "1",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "0"
+  }
+}]
+
+Specific template =  {'last_name': 'Baggins', 'first_name': 'Bilbo'}
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+T =  Table name = People
+Column name: ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns: ['playerID']
+Next row id: 19371
+No. of rows: 19370
+First 5 rows:
+    playerID birthYear birthMonth birthDay birthCountry birthState   birthCity deathYear deathMonth deathDay deathCountry deathState deathCity nameFirst nameLast       nameGiven weight height bats throws       debut   finalGame   retroID    bbrefID
+2  aardsda01      1981         12       27          USA         CO      Denver                                                                     David  Aardsma     David Allan    215     75    R      R  2004-04-06  2015-08-23  aardd001  aardsda01
+3  aaronha01      1934          2        5          USA         AL      Mobile                                                                      Hank    Aaron     Henry Louis    180     72    R      R  1954-04-13  1976-10-03  aaroh101  aaronha01
+4  aaronto01      1939          8        5          USA         AL      Mobile      1984          8       16          USA         GA   Atlanta    Tommie    Aaron      Tommie Lee    190     75    R      R  1962-04-10  1971-09-26  aarot101  aaronto01
+5   aasedo01      1954          9        8          USA         CA      Orange                                                                       Don     Aase  Donald William    190     75    R      R  1977-07-26  1990-10-03  aased001   aasedo01
+6   abadan01      1972          8       25          USA         FL  Palm Beach                                                                      Andy     Abad   Fausto Andres    184     73    L      L  2001-09-10  2006-04-13  abada001   abadan01
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['playerID']
+Table name: People
+No. of unique index values: 19370Entries:
+[aardsda01: {
+  "2": {
+    "playerID": "aardsda01",
+    "birthYear": "1981",
+    "birthMonth": "12",
+    "birthDay": "27",
+    "birthCountry": "USA",
+    "birthState": "CO",
+    "birthCity": "Denver",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "David",
+    "nameLast": "Aardsma",
+    "nameGiven": "David Allan",
+    "weight": "215",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "2004-04-06",
+    "finalGame": "2015-08-23",
+    "retroID": "aardd001",
+    "bbrefID": "aardsda01"
+  }
+}]
+[aaronha01: {
+  "3": {
+    "playerID": "aaronha01",
+    "birthYear": "1934",
+    "birthMonth": "2",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Hank",
+    "nameLast": "Aaron",
+    "nameGiven": "Henry Louis",
+    "weight": "180",
+    "height": "72",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1954-04-13",
+    "finalGame": "1976-10-03",
+    "retroID": "aaroh101",
+    "bbrefID": "aaronha01"
+  }
+}]
+[aaronto01: {
+  "4": {
+    "playerID": "aaronto01",
+    "birthYear": "1939",
+    "birthMonth": "8",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "1984",
+    "deathMonth": "8",
+    "deathDay": "16",
+    "deathCountry": "USA",
+    "deathState": "GA",
+    "deathCity": "Atlanta",
+    "nameFirst": "Tommie",
+    "nameLast": "Aaron",
+    "nameGiven": "Tommie Lee",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1962-04-10",
+    "finalGame": "1971-09-26",
+    "retroID": "aarot101",
+    "bbrefID": "aaronto01"
+  }
+}]
+[aasedo01: {
+  "5": {
+    "playerID": "aasedo01",
+    "birthYear": "1954",
+    "birthMonth": "9",
+    "birthDay": "8",
+    "birthCountry": "USA",
+    "birthState": "CA",
+    "birthCity": "Orange",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Don",
+    "nameLast": "Aase",
+    "nameGiven": "Donald William",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1977-07-26",
+    "finalGame": "1990-10-03",
+    "retroID": "aased001",
+    "bbrefID": "aasedo01"
+  }
+}]
+[abadan01: {
+  "6": {
+    "playerID": "abadan01",
+    "birthYear": "1972",
+    "birthMonth": "8",
+    "birthDay": "25",
+    "birthCountry": "USA",
+    "birthState": "FL",
+    "birthCity": "Palm Beach",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Andy",
+    "nameLast": "Abad",
+    "nameGiven": "Fausto Andres",
+    "weight": "184",
+    "height": "73",
+    "bats": "L",
+    "throws": "L",
+    "debut": "2001-09-10",
+    "finalGame": "2006-04-13",
+    "retroID": "abada001",
+    "bbrefID": "abadan01"
+  }
+}]
+
+T =  Table name = Batting
+Column name: ['playerID', 'yearID', 'stint', 'teamID', 'lgID', 'G', 'AB', 'R', 'H', '2B', '3B', 'HR', 'RBI', 'SB', 'CS', 'BB', 'SO', 'IBB', 'HBP', 'SH', 'SF', 'GIDP']
+Primary key columns: ['playerID', 'stint', 'teamID', 'yearID']
+Next row id: 104325
+No. of rows: 104324
+First 5 rows:
+    playerID yearID stint teamID lgID   G   AB   R   H  2B 3B HR RBI SB CS BB SO IBB HBP SH SF GIDP
+2  abercda01   1871     1    TRO   NA   1    4   0   0   0  0  0   0  0  0  0  0                  0
+3   addybo01   1871     1    RC1   NA  25  118  30  32   6  0  0  13  8  1  4  0                  0
+4  allisar01   1871     1    CL1   NA  29  137  28  40   4  5  0  19  3  1  2  5                  1
+5  allisdo01   1871     1    WS3   NA  27  133  28  44  10  2  2  27  1  1  0  2                  0
+6  ansonca01   1871     1    RC1   NA  25  120  29  39  11  3  0  16  6  2  2  1                  0
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['playerID', 'stint', 'teamID', 'yearID']
+Table name: Batting
+No. of unique index values: 104324Entries:
+[abercda01_1_TRO_1871: {
+  "2": {
+    "playerID": "abercda01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "TRO",
+    "lgID": "NA",
+    "G": "1",
+    "AB": "4",
+    "R": "0",
+    "H": "0",
+    "2B": "0",
+    "3B": "0",
+    "HR": "0",
+    "RBI": "0",
+    "SB": "0",
+    "CS": "0",
+    "BB": "0",
+    "SO": "0",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "0"
+  }
+}]
+[addybo01_1_RC1_1871: {
+  "3": {
+    "playerID": "addybo01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "RC1",
+    "lgID": "NA",
+    "G": "25",
+    "AB": "118",
+    "R": "30",
+    "H": "32",
+    "2B": "6",
+    "3B": "0",
+    "HR": "0",
+    "RBI": "13",
+    "SB": "8",
+    "CS": "1",
+    "BB": "4",
+    "SO": "0",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "0"
+  }
+}]
+[allisar01_1_CL1_1871: {
+  "4": {
+    "playerID": "allisar01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "CL1",
+    "lgID": "NA",
+    "G": "29",
+    "AB": "137",
+    "R": "28",
+    "H": "40",
+    "2B": "4",
+    "3B": "5",
+    "HR": "0",
+    "RBI": "19",
+    "SB": "3",
+    "CS": "1",
+    "BB": "2",
+    "SO": "5",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "1"
+  }
+}]
+[allisdo01_1_WS3_1871: {
+  "5": {
+    "playerID": "allisdo01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "WS3",
+    "lgID": "NA",
+    "G": "27",
+    "AB": "133",
+    "R": "28",
+    "H": "44",
+    "2B": "10",
+    "3B": "2",
+    "HR": "2",
+    "RBI": "27",
+    "SB": "1",
+    "CS": "1",
+    "BB": "0",
+    "SO": "2",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "0"
+  }
+}]
+[ansonca01_1_RC1_1871: {
+  "6": {
+    "playerID": "ansonca01",
+    "yearID": "1871",
+    "stint": "1",
+    "teamID": "RC1",
+    "lgID": "NA",
+    "G": "25",
+    "AB": "120",
+    "R": "29",
+    "H": "39",
+    "2B": "11",
+    "3B": "3",
+    "HR": "0",
+    "RBI": "16",
+    "SB": "6",
+    "CS": "2",
+    "BB": "2",
+    "SO": "1",
+    "IBB": "",
+    "HBP": "",
+    "SH": "",
+    "SF": "",
+    "GIDP": "0"
+  }
+}]
+
+Result =  Table name = Join(Batting,People)
+Column name: ['AB', 'H', 'nameFirst', 'nameLast', 'playerID', 'stint', 'teamID', 'yearID']
+Primary key columns: None
+Next row id: 2
+No. of rows: 1
+First 1 rows:
+    playerID  nameLast nameFirst teamID yearID stint    H   AB
+2  willite01  Williams       Ted    BOS   1939     1  185  565
+All rows = [
+  {
+    "playerID": "willite01",
+    "nameLast": "Williams",
+    "nameFirst": "Ted",
+    "teamID": "BOS",
+    "yearID": "1939",
+    "stint": "1",
+    "H": "185",
+    "AB": "565"
+  }
+]
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+T =  Table name = People
+Column name: ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns: ['playerID']
+Next row id: 19371
+No. of rows: 19370
+First 5 rows:
+    playerID birthYear birthMonth birthDay birthCountry birthState   birthCity deathYear deathMonth deathDay deathCountry deathState deathCity nameFirst nameLast       nameGiven weight height bats throws       debut   finalGame   retroID    bbrefID
+2  aardsda01      1981         12       27          USA         CO      Denver                                                                     David  Aardsma     David Allan    215     75    R      R  2004-04-06  2015-08-23  aardd001  aardsda01
+3  aaronha01      1934          2        5          USA         AL      Mobile                                                                      Hank    Aaron     Henry Louis    180     72    R      R  1954-04-13  1976-10-03  aaroh101  aaronha01
+4  aaronto01      1939          8        5          USA         AL      Mobile      1984          8       16          USA         GA   Atlanta    Tommie    Aaron      Tommie Lee    190     75    R      R  1962-04-10  1971-09-26  aarot101  aaronto01
+5   aasedo01      1954          9        8          USA         CA      Orange                                                                       Don     Aase  Donald William    190     75    R      R  1977-07-26  1990-10-03  aased001   aasedo01
+6   abadan01      1972          8       25          USA         FL  Palm Beach                                                                      Andy     Abad   Fausto Andres    184     73    L      L  2001-09-10  2006-04-13  abada001   abadan01
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['playerID']
+Table name: People
+No. of unique index values: 19370Entries:
+[aardsda01: {
+  "2": {
+    "playerID": "aardsda01",
+    "birthYear": "1981",
+    "birthMonth": "12",
+    "birthDay": "27",
+    "birthCountry": "USA",
+    "birthState": "CO",
+    "birthCity": "Denver",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "David",
+    "nameLast": "Aardsma",
+    "nameGiven": "David Allan",
+    "weight": "215",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "2004-04-06",
+    "finalGame": "2015-08-23",
+    "retroID": "aardd001",
+    "bbrefID": "aardsda01"
+  }
+}]
+[aaronha01: {
+  "3": {
+    "playerID": "aaronha01",
+    "birthYear": "1934",
+    "birthMonth": "2",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Hank",
+    "nameLast": "Aaron",
+    "nameGiven": "Henry Louis",
+    "weight": "180",
+    "height": "72",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1954-04-13",
+    "finalGame": "1976-10-03",
+    "retroID": "aaroh101",
+    "bbrefID": "aaronha01"
+  }
+}]
+[aaronto01: {
+  "4": {
+    "playerID": "aaronto01",
+    "birthYear": "1939",
+    "birthMonth": "8",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "1984",
+    "deathMonth": "8",
+    "deathDay": "16",
+    "deathCountry": "USA",
+    "deathState": "GA",
+    "deathCity": "Atlanta",
+    "nameFirst": "Tommie",
+    "nameLast": "Aaron",
+    "nameGiven": "Tommie Lee",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1962-04-10",
+    "finalGame": "1971-09-26",
+    "retroID": "aarot101",
+    "bbrefID": "aaronto01"
+  }
+}]
+[aasedo01: {
+  "5": {
+    "playerID": "aasedo01",
+    "birthYear": "1954",
+    "birthMonth": "9",
+    "birthDay": "8",
+    "birthCountry": "USA",
+    "birthState": "CA",
+    "birthCity": "Orange",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Don",
+    "nameLast": "Aase",
+    "nameGiven": "Donald William",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1977-07-26",
+    "finalGame": "1990-10-03",
+    "retroID": "aased001",
+    "bbrefID": "aasedo01"
+  }
+}]
+[abadan01: {
+  "6": {
+    "playerID": "abadan01",
+    "birthYear": "1972",
+    "birthMonth": "8",
+    "birthDay": "25",
+    "birthCountry": "USA",
+    "birthState": "FL",
+    "birthCity": "Palm Beach",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Andy",
+    "nameLast": "Abad",
+    "nameGiven": "Fausto Andres",
+    "weight": "184",
+    "height": "73",
+    "bats": "L",
+    "throws": "L",
+    "debut": "2001-09-10",
+    "finalGame": "2006-04-13",
+    "retroID": "abada001",
+    "bbrefID": "abadan01"
+  }
+}]
+
+Specific template =  ['playerID', 'nameLast']
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+T =  Table name = People
+Column name: ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns: ['playerID']
+Next row id: 19371
+No. of rows: 19370
+First 5 rows:
+    playerID birthYear birthMonth birthDay birthCountry birthState   birthCity deathYear deathMonth deathDay deathCountry deathState deathCity nameFirst nameLast       nameGiven weight height bats throws       debut   finalGame   retroID    bbrefID
+2  aardsda01      1981         12       27          USA         CO      Denver                                                                     David  Aardsma     David Allan    215     75    R      R  2004-04-06  2015-08-23  aardd001  aardsda01
+3  aaronha01      1934          2        5          USA         AL      Mobile                                                                      Hank    Aaron     Henry Louis    180     72    R      R  1954-04-13  1976-10-03  aaroh101  aaronha01
+4  aaronto01      1939          8        5          USA         AL      Mobile      1984          8       16          USA         GA   Atlanta    Tommie    Aaron      Tommie Lee    190     75    R      R  1962-04-10  1971-09-26  aarot101  aaronto01
+5   aasedo01      1954          9        8          USA         CA      Orange                                                                       Don     Aase  Donald William    190     75    R      R  1977-07-26  1990-10-03  aased001   aasedo01
+6   abadan01      1972          8       25          USA         FL  Palm Beach                                                                      Andy     Abad   Fausto Andres    184     73    L      L  2001-09-10  2006-04-13  abada001   abadan01
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['playerID']
+Table name: People
+No. of unique index values: 19370Entries:
+[aardsda01: {
+  "2": {
+    "playerID": "aardsda01",
+    "birthYear": "1981",
+    "birthMonth": "12",
+    "birthDay": "27",
+    "birthCountry": "USA",
+    "birthState": "CO",
+    "birthCity": "Denver",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "David",
+    "nameLast": "Aardsma",
+    "nameGiven": "David Allan",
+    "weight": "215",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "2004-04-06",
+    "finalGame": "2015-08-23",
+    "retroID": "aardd001",
+    "bbrefID": "aardsda01"
+  }
+}]
+[aaronha01: {
+  "3": {
+    "playerID": "aaronha01",
+    "birthYear": "1934",
+    "birthMonth": "2",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Hank",
+    "nameLast": "Aaron",
+    "nameGiven": "Henry Louis",
+    "weight": "180",
+    "height": "72",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1954-04-13",
+    "finalGame": "1976-10-03",
+    "retroID": "aaroh101",
+    "bbrefID": "aaronha01"
+  }
+}]
+[aaronto01: {
+  "4": {
+    "playerID": "aaronto01",
+    "birthYear": "1939",
+    "birthMonth": "8",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "1984",
+    "deathMonth": "8",
+    "deathDay": "16",
+    "deathCountry": "USA",
+    "deathState": "GA",
+    "deathCity": "Atlanta",
+    "nameFirst": "Tommie",
+    "nameLast": "Aaron",
+    "nameGiven": "Tommie Lee",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1962-04-10",
+    "finalGame": "1971-09-26",
+    "retroID": "aarot101",
+    "bbrefID": "aaronto01"
+  }
+}]
+[aasedo01: {
+  "5": {
+    "playerID": "aasedo01",
+    "birthYear": "1954",
+    "birthMonth": "9",
+    "birthDay": "8",
+    "birthCountry": "USA",
+    "birthState": "CA",
+    "birthCity": "Orange",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Don",
+    "nameLast": "Aase",
+    "nameGiven": "Donald William",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1977-07-26",
+    "finalGame": "1990-10-03",
+    "retroID": "aased001",
+    "bbrefID": "aasedo01"
+  }
+}]
+[abadan01: {
+  "6": {
+    "playerID": "abadan01",
+    "birthYear": "1972",
+    "birthMonth": "8",
+    "birthDay": "25",
+    "birthCountry": "USA",
+    "birthState": "FL",
+    "birthCity": "Palm Beach",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Andy",
+    "nameLast": "Abad",
+    "nameGiven": "Fausto Andres",
+    "weight": "184",
+    "height": "73",
+    "bats": "L",
+    "throws": "L",
+    "debut": "2001-09-10",
+    "finalGame": "2006-04-13",
+    "retroID": "abada001",
+    "bbrefID": "abadan01"
+  }
+}]
+
+Answer =  Table name = People
+Column name: ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns: ['playerID']
+Next row id: 19371
+No. of rows: 19370
+First 5 rows:
+    playerID birthYear birthMonth birthDay birthCountry birthState   birthCity deathYear deathMonth deathDay deathCountry deathState deathCity nameFirst nameLast       nameGiven weight height bats throws       debut   finalGame   retroID    bbrefID
+2  aardsda01      1981         12       27          USA         CO      Denver                                                                     David  Aardsma     David Allan    215     75    R      R  2004-04-06  2015-08-23  aardd001  aardsda01
+3  aaronha01      1934          2        5          USA         AL      Mobile                                                                      Hank    Aaron     Henry Louis    180     72    R      R  1954-04-13  1976-10-03  aaroh101  aaronha01
+4  aaronto01      1939          8        5          USA         AL      Mobile      1984          8       16          USA         GA   Atlanta    Tommie    Aaron      Tommie Lee    190     75    R      R  1962-04-10  1971-09-26  aarot101  aaronto01
+5   aasedo01      1954          9        8          USA         CA      Orange                                                                       Don     Aase  Donald William    190     75    R      R  1977-07-26  1990-10-03  aased001   aasedo01
+6   abadan01      1972          8       25          USA         FL  Palm Beach                                                                      Andy     Abad   Fausto Andres    184     73    L      L  2001-09-10  2006-04-13  abada001   abadan01
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['playerID']
+Table name: People
+No. of unique index values: 19370Entries:
+[aardsda01: {
+  "2": {
+    "playerID": "aardsda01",
+    "birthYear": "1981",
+    "birthMonth": "12",
+    "birthDay": "27",
+    "birthCountry": "USA",
+    "birthState": "CO",
+    "birthCity": "Denver",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "David",
+    "nameLast": "Aardsma",
+    "nameGiven": "David Allan",
+    "weight": "215",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "2004-04-06",
+    "finalGame": "2015-08-23",
+    "retroID": "aardd001",
+    "bbrefID": "aardsda01"
+  }
+}]
+[aaronha01: {
+  "3": {
+    "playerID": "aaronha01",
+    "birthYear": "1934",
+    "birthMonth": "2",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Hank",
+    "nameLast": "Aaron",
+    "nameGiven": "Henry Louis",
+    "weight": "180",
+    "height": "72",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1954-04-13",
+    "finalGame": "1976-10-03",
+    "retroID": "aaroh101",
+    "bbrefID": "aaronha01"
+  }
+}]
+[aaronto01: {
+  "4": {
+    "playerID": "aaronto01",
+    "birthYear": "1939",
+    "birthMonth": "8",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "1984",
+    "deathMonth": "8",
+    "deathDay": "16",
+    "deathCountry": "USA",
+    "deathState": "GA",
+    "deathCity": "Atlanta",
+    "nameFirst": "Tommie",
+    "nameLast": "Aaron",
+    "nameGiven": "Tommie Lee",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1962-04-10",
+    "finalGame": "1971-09-26",
+    "retroID": "aarot101",
+    "bbrefID": "aaronto01"
+  }
+}]
+[aasedo01: {
+  "5": {
+    "playerID": "aasedo01",
+    "birthYear": "1954",
+    "birthMonth": "9",
+    "birthDay": "8",
+    "birthCountry": "USA",
+    "birthState": "CA",
+    "birthCity": "Orange",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Don",
+    "nameLast": "Aase",
+    "nameGiven": "Donald William",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1977-07-26",
+    "finalGame": "1990-10-03",
+    "retroID": "aased001",
+    "bbrefID": "aasedo01"
+  }
+}]
+[abadan01: {
+  "6": {
+    "playerID": "abadan01",
+    "birthYear": "1972",
+    "birthMonth": "8",
+    "birthDay": "25",
+    "birthCountry": "USA",
+    "birthState": "FL",
+    "birthCity": "Palm Beach",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Andy",
+    "nameLast": "Abad",
+    "nameGiven": "Fausto Andres",
+    "weight": "184",
+    "height": "73",
+    "bats": "L",
+    "throws": "L",
+    "debut": "2001-09-10",
+    "finalGame": "2006-04-13",
+    "retroID": "abada001",
+    "bbrefID": "abadan01"
+  }
+}]
+Index name: LASTNAME
+Kind: INDEX
+Index columns: ['nameLast']
+Table name: People
+No. of unique index values: 9939Entries:
+[Aardsma: {
+  "2": {
+    "playerID": "aardsda01",
+    "birthYear": "1981",
+    "birthMonth": "12",
+    "birthDay": "27",
+    "birthCountry": "USA",
+    "birthState": "CO",
+    "birthCity": "Denver",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "David",
+    "nameLast": "Aardsma",
+    "nameGiven": "David Allan",
+    "weight": "215",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "2004-04-06",
+    "finalGame": "2015-08-23",
+    "retroID": "aardd001",
+    "bbrefID": "aardsda01"
+  }
+}]
+[Aaron: {
+  "3": {
+    "playerID": "aaronha01",
+    "birthYear": "1934",
+    "birthMonth": "2",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Hank",
+    "nameLast": "Aaron",
+    "nameGiven": "Henry Louis",
+    "weight": "180",
+    "height": "72",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1954-04-13",
+    "finalGame": "1976-10-03",
+    "retroID": "aaroh101",
+    "bbrefID": "aaronha01"
+  },
+  "4": {
+    "playerID": "aaronto01",
+    "birthYear": "1939",
+    "birthMonth": "8",
+    "birthDay": "5",
+    "birthCountry": "USA",
+    "birthState": "AL",
+    "birthCity": "Mobile",
+    "deathYear": "1984",
+    "deathMonth": "8",
+    "deathDay": "16",
+    "deathCountry": "USA",
+    "deathState": "GA",
+    "deathCity": "Atlanta",
+    "nameFirst": "Tommie",
+    "nameLast": "Aaron",
+    "nameGiven": "Tommie Lee",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1962-04-10",
+    "finalGame": "1971-09-26",
+    "retroID": "aarot101",
+    "bbrefID": "aaronto01"
+  }
+}]
+[Aase: {
+  "5": {
+    "playerID": "aasedo01",
+    "birthYear": "1954",
+    "birthMonth": "9",
+    "birthDay": "8",
+    "birthCountry": "USA",
+    "birthState": "CA",
+    "birthCity": "Orange",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Don",
+    "nameLast": "Aase",
+    "nameGiven": "Donald William",
+    "weight": "190",
+    "height": "75",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1977-07-26",
+    "finalGame": "1990-10-03",
+    "retroID": "aased001",
+    "bbrefID": "aasedo01"
+  }
+}]
+[Abad: {
+  "6": {
+    "playerID": "abadan01",
+    "birthYear": "1972",
+    "birthMonth": "8",
+    "birthDay": "25",
+    "birthCountry": "USA",
+    "birthState": "FL",
+    "birthCity": "Palm Beach",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Andy",
+    "nameLast": "Abad",
+    "nameGiven": "Fausto Andres",
+    "weight": "184",
+    "height": "73",
+    "bats": "L",
+    "throws": "L",
+    "debut": "2001-09-10",
+    "finalGame": "2006-04-13",
+    "retroID": "abada001",
+    "bbrefID": "abadan01"
+  },
+  "7": {
+    "playerID": "abadfe01",
+    "birthYear": "1985",
+    "birthMonth": "12",
+    "birthDay": "17",
+    "birthCountry": "D.R.",
+    "birthState": "La Romana",
+    "birthCity": "La Romana",
+    "deathYear": "",
+    "deathMonth": "",
+    "deathDay": "",
+    "deathCountry": "",
+    "deathState": "",
+    "deathCity": "",
+    "nameFirst": "Fernando",
+    "nameLast": "Abad",
+    "nameGiven": "Fernando Antonio",
+    "weight": "220",
+    "height": "73",
+    "bats": "L",
+    "throws": "L",
+    "debut": "2010-07-28",
+    "finalGame": "2017-10-01",
+    "retroID": "abadf001",
+    "bbrefID": "abadfe01"
+  }
+}]
+[Abadie: {
+  "8": {
+    "playerID": "abadijo01",
+    "birthYear": "1850",
+    "birthMonth": "11",
+    "birthDay": "4",
+    "birthCountry": "USA",
+    "birthState": "PA",
+    "birthCity": "Philadelphia",
+    "deathYear": "1905",
+    "deathMonth": "5",
+    "deathDay": "17",
+    "deathCountry": "USA",
+    "deathState": "NJ",
+    "deathCity": "Pemberton",
+    "nameFirst": "John",
+    "nameLast": "Abadie",
+    "nameGiven": "John W.",
+    "weight": "192",
+    "height": "72",
+    "bats": "R",
+    "throws": "R",
+    "debut": "1875-04-26",
+    "finalGame": "1875-06-10",
+    "retroID": "abadj101",
+    "bbrefID": "abadijo01"
+  }
+}]
+
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+T= Traceback (most recent call last):
+  File "/Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py", line 194, in <module>
+    t7()
+  File "/Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py", line 158, in t7
+    r2 = r._rows[2]
+KeyError: 2
+Table name = offices
+Column name: ['officeCode', 'city', 'phone', 'addressLine1', 'addressLine2', 'state', 'country', 'postalCode', 'territory']
+Primary key columns: ['officeCode']
+Next row id: 11
+No. of rows: 10
+First 5 rows:
+  officeCode           city            phone              addressLine1 addressLine2 state country postalCode territory
+2          1  San Francisco  +1 650 219 4782         100 Market Street    Suite 300    CA     USA      94080        NA
+3         11      Cambridge  +1 617 555 1212            Kendall Square                 MA     USA      02102        NA
+4          2         Boston  +1 215 837 0825          1550 Court Place    Suite 102    MA     USA      02107        NA
+5          3            NYC  +1 212 555 3000      523 East 53rd Street      apt. 5A    NY     USA      10022        NA
+6          4          Paris  +33 14 723 4404  43 Rue Jouffroy D'abbans                     France      75017      EMEA
+Indexes:
+Index name: PRIMARY
+Kind: PRIMARY
+Index columns: ['officeCode']
+Table name: offices
+No. of unique index values: 10Entries:
+[1: {
+  "2": {
+    "officeCode": "1",
+    "city": "San Francisco",
+    "phone": "+1 650 219 4782",
+    "addressLine1": "100 Market Street",
+    "addressLine2": "Suite 300",
+    "state": "CA",
+    "country": "USA",
+    "postalCode": "94080",
+    "territory": "NA"
+  }
+}]
+[11: {
+  "3": {
+    "officeCode": "11",
+    "city": "Cambridge",
+    "phone": "+1 617 555 1212",
+    "addressLine1": "Kendall Square",
+    "addressLine2": "",
+    "state": "MA",
+    "country": "USA",
+    "postalCode": "02102",
+    "territory": "NA"
+  }
+}]
+[2: {
+  "4": {
+    "officeCode": "2",
+    "city": "Boston",
+    "phone": "+1 215 837 0825",
+    "addressLine1": "1550 Court Place",
+    "addressLine2": "Suite 102",
+    "state": "MA",
+    "country": "USA",
+    "postalCode": "02107",
+    "territory": "NA"
+  }
+}]
+[3: {
+  "5": {
+    "officeCode": "3",
+    "city": "NYC",
+    "phone": "+1 212 555 3000",
+    "addressLine1": "523 East 53rd Street",
+    "addressLine2": "apt. 5A",
+    "state": "NY",
+    "country": "USA",
+    "postalCode": "10022",
+    "territory": "NA"
+  }
+}]
+[4: {
+  "6": {
+    "officeCode": "4",
+    "city": "Paris",
+    "phone": "+33 14 723 4404",
+    "addressLine1": "43 Rue Jouffroy D'abbans",
+    "addressLine2": "",
+    "state": "",
+    "country": "France",
+    "postalCode": "75017",
+    "territory": "EMEA"
+  }
+}]
+
+
+Process finished with exit code 1
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+
+Process finished with exit code 0
+
+/Users/wangxinquan/.conda/envs/xw2566_HW3/bin/python /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/tests/test.py
+Console output is saving to: /Users/wangxinquan/Desktop/2sem/W4111Database/xw2566_HW3/test_output
+None
+
+Process finished with exit code 0
